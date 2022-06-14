@@ -1,9 +1,9 @@
-import React from "react";
-import "./About.css";
-import ME4 from "../../assets/me12.png";
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
+import React from 'react';
+import './About.css';
+import ME4 from '../../assets/me12.png';
+import { FaAward } from 'react-icons/fa';
+import { FiUsers } from 'react-icons/fi';
+import { VscFolderLibrary } from 'react-icons/vsc';
 
 const About = (props) => {
   console.log(props);
@@ -24,11 +24,11 @@ const About = (props) => {
               <h5>Experience</h5>
               <small>Junior Frontend</small>
             </article>
-            <article className="about__card">
+            {/* <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
-            </article>
+              <small>0</small>
+            </article> */}
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>

@@ -1,6 +1,6 @@
-import React from "react";
-import "./Experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
+import React from 'react';
+import './Experience.css';
+import { BsPatchCheckFill } from 'react-icons/bs';
 
 const Experience = () => {
   return (
@@ -53,6 +53,20 @@ const Experience = () => {
                 <small className="text-light">Basic</small>
               </div>
             </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__detail-icon" />
+              <div>
+                <h4>Tailwind CSS</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__detail-icon" />
+              <div>
+                <h4>SyncFusion</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
           </div>
         </div>
         {/* {END OF FRONTEND} */}
@@ -69,14 +83,14 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__detail-icon" />
               <div>
-                <h4>MongoBD</h4>
+                <h4>MySQL</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__detail-icon" />
               <div>
-                <h4>MySQL</h4>
+                <h4>MongoBD</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>

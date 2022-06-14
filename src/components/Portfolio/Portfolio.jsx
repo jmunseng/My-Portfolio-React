@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import "./Portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import React, { useState, useEffect } from 'react';
+import './Portfolio.css';
+import IMG1 from '../../assets/portfolio1.png';
+import IMG2 from '../../assets/portfolio2.jpg';
+import IMG3 from '../../assets/portfolio3.png';
+import IMG4 from '../../assets/portfolio4.png';
+import IMG5 from '../../assets/portfolio5.jpg';
+import IMG6 from '../../assets/portfolio6.png';
 
 //Portfolio Data
 
@@ -13,50 +13,42 @@ const PORTFOLIO_DATA = [
   {
     id: 1,
     image: IMG1,
-    title: "Deividas Bielskis",
-    discription: "htmltetml",
-    github: "http://github.com",
-    demo: "",
+    title: 'Dashboard App',
+    discription: 'Router, SyncFusion, Tailwind Css, Mobile, Theme ',
+    github: 'https://github.com/jmunseng/dashboard-app',
+    demo: 'https://dashboard-app-munseong.vercel.app/',
   },
   {
     id: 2,
     image: IMG2,
-    title: "Oguz YagIz Kara",
-    discription: "htmltetml",
-    github: "http://github.com",
-    demo: "",
+    title: 'Food Order App',
+    discription: 'REST API, Module CSS, FireBase BD, ',
+    github: 'https://github.com/jmunseng/React-Food-Order-app',
+    demo: 'https://react-food-order-app-munseong.vercel.app/',
   },
   {
     id: 3,
     image: IMG3,
-    title: "Joao Augusto",
-    discription: "htmltetml",
-    github: "http://github.com",
-    demo: "",
+    title: 'Meetup App',
+    discription: 'NextJS, Server Side Rendering, Router, Rest API, MongoDB',
+    github: 'https://github.com/jmunseng/React-Meetup-app',
+    demo: 'https://react-meetup-app-munseong.vercel.app/',
   },
   {
     id: 4,
     image: IMG4,
-    title: "Outcrowd",
-    discription: "htmltetml",
-    github: "http://github.com",
-    demo: "",
+    title: 'Simple ToDo List "TypeScript"',
+    discription: 'TypeScript',
+    github: 'https://github.com/jmunseng/simple-note-by-typescript',
+    demo: 'https://simple-todo-with-typescript.vercel.app/',
   },
   {
     id: 5,
     image: IMG5,
-    title: "Balkan Brothers",
-    discription: "htmltetml",
-    github: "http://github.com",
-    demo: "",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "Mako Tsereteli",
-    discription: "htmltetml",
-    github: "http://github.com",
-    demo: "",
+    title: 'Quotes',
+    discription: 'React, Router, FireBase, Lazy Loading',
+    github: 'https://github.com/jmunseng/Quotes-router-firebase',
+    demo: 'https://quotes-router-firebase.vercel.app/quotes',
   },
 ];
 
