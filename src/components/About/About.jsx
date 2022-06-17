@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import ME4 from '../../assets/me12.png';
+import ME4 from '../../assets/me13.png';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
@@ -36,7 +36,7 @@ const About = (props) => {
             </article>
           </div>
           <p>
-            A fast learner and a passionate programmer with around 1.5 years of
+            A fast learner and a passionate programmer with around 1 years of
             frontend experience. I am experienced in front-end development using
             numerous programming languages/tools including HTML, CSS, JS, React
           </p>

@@ -24,6 +24,9 @@
     transform: rotate(0deg);
 }
 
+.about__me-image img {
+    background: linear-gradient(158deg, transparent, var(--color-primary), transparent)
+}
 
 .about__cards {
     display: grid;
