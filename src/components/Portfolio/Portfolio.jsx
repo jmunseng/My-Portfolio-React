@@ -12,20 +12,21 @@ import IMG6 from '../../assets/portfolio6.png';
 const PORTFOLIO_DATA = [
   {
     id: 1,
-    image: IMG1,
-    title: 'Dashboard App',
-    discription: 'Router, SyncFusion, Tailwind Css, Mobile, Theme ',
-    github: 'https://github.com/jmunseng/dashboard-app',
-    demo: 'https://dashboard-app-munseong.vercel.app/',
+    image: IMG5,
+    title: 'Quotes',
+    discription: 'React, Router, FireBase, Lazy Loading',
+    github: 'https://github.com/jmunseng/Quotes-router-firebase',
+    demo: 'https://quotes-router-firebase.vercel.app/quotes',
   },
   {
     id: 2,
-    image: IMG2,
-    title: 'Food Order App',
-    discription: 'REST API, Module CSS, FireBase BD, ',
-    github: 'https://github.com/jmunseng/React-Food-Order-app',
-    demo: 'https://react-food-order-app-munseong.vercel.app/',
+    image: IMG4,
+    title: 'Simple ToDo List "TypeScript"',
+    discription: 'TypeScript',
+    github: 'https://github.com/jmunseng/simple-note-by-typescript',
+    demo: 'https://simple-todo-with-typescript.vercel.app/',
   },
+
   {
     id: 3,
     image: IMG3,
@@ -36,19 +37,27 @@ const PORTFOLIO_DATA = [
   },
   {
     id: 4,
-    image: IMG4,
-    title: 'Simple ToDo List "TypeScript"',
-    discription: 'TypeScript',
-    github: 'https://github.com/jmunseng/simple-note-by-typescript',
-    demo: 'https://simple-todo-with-typescript.vercel.app/',
+    image: IMG2,
+    title: 'Food Order App',
+    discription: 'REST API, Module CSS, FireBase BD, ',
+    github: 'https://github.com/jmunseng/React-Food-Order-app',
+    demo: 'https://react-food-order-app-munseong.vercel.app/',
   },
   {
     id: 5,
-    image: IMG5,
-    title: 'Quotes',
-    discription: 'React, Router, FireBase, Lazy Loading',
-    github: 'https://github.com/jmunseng/Quotes-router-firebase',
-    demo: 'https://quotes-router-firebase.vercel.app/quotes',
+    image: IMG1,
+    title: 'Dashboard App',
+    discription: 'Router, SyncFusion, Tailwind Css, Mobile, Theme ',
+    github: 'https://github.com/jmunseng/dashboard-app',
+    demo: 'https://dashboard-app-munseong.vercel.app/',
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: 'Trello Board (doing..)',
+    discription: 'SCSS, Bootstrap',
+    github: 'https://github.com/jmunseng/trello-board-mern-app',
+    demo: 'https://trello-board-mern-app.vercel.app',
   },
 ];
 
@@ -59,7 +68,7 @@ const Portfolio = (props) => {
     // setCount(PORTFOLIO_DATA.length);
     props.getProjectNum(count);
   });
-
+  PORTFOLIO_DATA.sort((a, b) => b.id - a.id);
   return (
     <section id="portfolio">
       <h5>My Recent Works</h5>
@@ -74,10 +83,20 @@ const Portfolio = (props) => {
               <h3>{e.title}</h3>
               <p>{e.discription}</p>
               <div className="portfolio__item-cta">
-                <a href={e.github} className="btn" target="_blank">
+                <a
+                  href={e.github}
+                  className="btn"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Github
                 </a>
-                <a href={e.demo} className="btn btn-primary" target="_blank">
+                <a
+                  href={e.demo}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Live Demo
                 </a>
               </div>
