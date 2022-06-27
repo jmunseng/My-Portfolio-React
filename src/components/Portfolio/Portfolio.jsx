@@ -54,8 +54,8 @@ const PORTFOLIO_DATA = [
   {
     id: 6,
     image: IMG6,
-    title: 'Trello Board (doing..)',
-    discription: 'SCSS, Bootstrap',
+    title: 'Trello Board',
+    discription: 'SASS/SCSS, Bootstrap, Fontawesome, React-smooth-dnd',
     github: 'https://github.com/jmunseng/trello-board-mern-app',
     demo: 'https://trello-board-mern-app.vercel.app',
   },
