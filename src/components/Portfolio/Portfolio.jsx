@@ -6,6 +6,7 @@ import IMG3 from '../../assets/portfolio3.png';
 import IMG4 from '../../assets/portfolio4.png';
 import IMG5 from '../../assets/portfolio5.jpg';
 import IMG6 from '../../assets/portfolio6.png';
+import IMG7 from '../../assets/socialmedia.png';
 
 //Portfolio Data
 
@@ -53,6 +54,14 @@ const PORTFOLIO_DATA = [
   },
   {
     id: 6,
+    image: IMG7,
+    title: 'Social Media App',
+    discription: 'Material UI, Theme, Mobile, React,',
+    github: 'https://github.com/jmunseng/social-media-app',
+    demo: 'https://social-media-app-topaz.vercel.app/',
+  },
+  {
+    id: 7,
     image: IMG6,
     title: 'Trello Board',
     discription: 'SASS/SCSS, Bootstrap, Fontawesome, React-smooth-dnd',
