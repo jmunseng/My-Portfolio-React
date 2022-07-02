@@ -70,9 +70,9 @@ const PORTFOLIO_DATA = [
     demo: 'https://trello-board-mern-app.vercel.app',
   },
   {
-    id: 7,
-    image: IMG7,
-    title: 'Trello Board',
+    id: 8,
+    image: IMG8,
+    title: 'Store app',
     discription: 'TypeScript, React Bootstrap, Bootstrap, Router ',
     github: 'https://github.com/jmunseng/store-app',
     demo: 'https://store-app-wine-one.vercel.app/store',
