@@ -7,6 +7,7 @@ import IMG4 from '../../assets/portfolio4.png';
 import IMG5 from '../../assets/portfolio5.jpg';
 import IMG6 from '../../assets/portfolio6.png';
 import IMG7 from '../../assets/socialmedia.png';
+import IMG8 from '../../assets/portfolio8.png';
 
 //Portfolio Data
 
@@ -48,7 +49,7 @@ const PORTFOLIO_DATA = [
     id: 5,
     image: IMG1,
     title: 'Dashboard App',
-    discription: 'Router, SyncFusion, Tailwind Css, Mobile, Theme ',
+    discription: 'Router, Hooks, SyncFusion, Tailwind Css, Mobile, Theme ',
     github: 'https://github.com/jmunseng/dashboard-app',
     demo: 'https://dashboard-app-munseong.vercel.app/',
   },
@@ -67,6 +68,14 @@ const PORTFOLIO_DATA = [
     discription: 'SASS/SCSS, Bootstrap, Fontawesome, React-smooth-dnd',
     github: 'https://github.com/jmunseng/trello-board-mern-app',
     demo: 'https://trello-board-mern-app.vercel.app',
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: 'Trello Board',
+    discription: 'TypeScript, React Bootstrap, Bootstrap, Router ',
+    github: 'https://github.com/jmunseng/store-app',
+    demo: 'https://store-app-wine-one.vercel.app/store',
   },
 ];
 
