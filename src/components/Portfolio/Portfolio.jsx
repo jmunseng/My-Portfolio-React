@@ -75,7 +75,7 @@ const PORTFOLIO_DATA = [
     title: 'Store app',
     discription: 'TypeScript, React Bootstrap, Bootstrap, Router ',
     github: 'https://github.com/jmunseng/store-app',
-    demo: 'https://store-app-wine-one.vercel.app/store',
+    demo: 'https://store-app-wine-one.vercel.app',
   },
 ];
 
