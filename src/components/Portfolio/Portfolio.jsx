@@ -8,6 +8,7 @@ import IMG5 from '../../assets/portfolio5.jpg';
 import IMG6 from '../../assets/portfolio6.png';
 import IMG7 from '../../assets/socialmedia.png';
 import IMG8 from '../../assets/portfolio8.png';
+import IMG9 from '../../assets/portfolio9.jpg';
 
 //Portfolio Data
 
@@ -76,6 +77,14 @@ const PORTFOLIO_DATA = [
     discription: 'TypeScript, React Bootstrap, Bootstrap, Router ',
     github: 'https://github.com/jmunseng/store-app',
     demo: 'https://store-app-wine-one.vercel.app',
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: 'Movie list',
+    discription: 'Fetch API, React, Router ',
+    github: 'https://github.com/jmunseng/movie-list',
+    demo: 'https://movie-list-cs2xmr2yu-jmunseng.vercel.app',
   },
 ];
 
