@@ -23,6 +23,15 @@
     overflow: hidden;
 }
 
+.portfolio__item-image img {
+
+    height: 270px;
+}
+
+.portfolio__item-text {
+    height: 96px;
+}
+
 .portfolio__item h3 {
     margin: 1.2rem 0 0;
 }

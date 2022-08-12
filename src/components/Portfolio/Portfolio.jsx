@@ -9,6 +9,7 @@ import IMG6 from '../../assets/portfolio6.png';
 import IMG7 from '../../assets/socialmedia.png';
 import IMG8 from '../../assets/portfolio8.png';
 import IMG9 from '../../assets/portfolio9.jpg';
+import IMG10 from '../../assets/portfolio10.jpg';
 
 //Portfolio Data
 
@@ -86,6 +87,15 @@ const PORTFOLIO_DATA = [
     github: 'https://github.com/jmunseng/movie-list',
     demo: 'https://movie-list-cs2xmr2yu-jmunseng.vercel.app',
   },
+  {
+    id: 10,
+    image: IMG10,
+    title: 'Around my Area',
+    discription:
+      'Material UI, MUI System, Google Cloud API, Travel Advisor api, axios',
+    github: 'https://git.generalassemb.ly/rctr03Banz/Mun-Seong-Final-Project',
+    demo: 'https://ga-final-project-munseong.netlify.app/',
+  },
 ];
 
 const Portfolio = (props) => {
@@ -107,8 +117,10 @@ const Portfolio = (props) => {
               <div className="portfolio__item-image">
                 <img src={e.image} alt={e.id} />
               </div>
-              <h3>{e.title}</h3>
-              <p>{e.discription}</p>
+              <div className="portfolio__item-text">
+                <h3>{e.title}</h3>
+                <p>{e.discription}</p>
+              </div>
               <div className="portfolio__item-cta">
                 <a
                   href={e.github}
