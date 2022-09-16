@@ -10,7 +10,7 @@ import IMG7 from '../../assets/socialmedia.png';
 import IMG8 from '../../assets/portfolio8.png';
 import IMG9 from '../../assets/portfolio9.jpg';
 import IMG10 from '../../assets/portfolio10.jpg';
-import IMG11 from '../../assets/portfolio11.jpg';
+import IMG11 from '../../assets/portfolio11.png';
 
 //Portfolio Data
 
