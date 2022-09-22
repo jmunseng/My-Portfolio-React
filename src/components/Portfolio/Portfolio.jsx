@@ -11,6 +11,7 @@ import IMG8 from '../../assets/portfolio8.png';
 import IMG9 from '../../assets/portfolio9.jpg';
 import IMG10 from '../../assets/portfolio10.jpg';
 import IMG11 from '../../assets/portfolio11.png';
+import IMG12 from '../../assets/portfolio12.png';
 
 //Portfolio Data
 
@@ -79,6 +80,14 @@ const PORTFOLIO_DATA = [
     discription: 'TypeScript, React Bootstrap, Bootstrap, Router ',
     github: 'https://github.com/jmunseng/store-app',
     demo: 'https://store-app-wine-one.vercel.app',
+  },
+  {
+    id: 0,
+    image: IMG12,
+    title: 'JS practice ShoppingCart',
+    discription: 'Only, JavaScript, HTML CSS',
+    github: '#none',
+    demo: 'https://courageous-babka-eab836.netlify.app/',
   },
   {
     id: 9,
